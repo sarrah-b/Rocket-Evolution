@@ -112,7 +112,7 @@ function Population() {
 			}
 		}
 
-		createP(String(generation) + '&nbsp;&nbsp;&nbsp;&nbsp;' + String(percent * 100 / this.count));
+		//createP(String(generation) + '&nbsp;&nbsp;&nbsp;&nbsp;' + String(percent * 100 / this.count));
 
 		for (let i = 0; i < this.count; i++) {
 			this.rockets[i].score /= maxfit; //makes all scores between 0 and 1
